@@ -1,0 +1,205 @@
+body{
+    background-color: #7ECAD0;
+    padding: 20px 100px;
+}
+  .App {
+    color: white;
+  }
+  .logo{
+    margin: 35px 0px;
+    width: 15vw;
+  }
+  
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar li{
+    font-size: 1.2vw;
+    cursor: pointer;
+    padding: 20px 0px;
+    list-style: none;
+    margin: 0px 1vw;
+  }
+  .navbar p{
+    font-size: 2vw;
+    cursor: pointer;
+    padding: 20px 0px;
+    list-style: none;
+    margin: 0px 1vw;
+  }
+  .search{
+    width: 15px;
+  }
+
+
+  .pagecontent{
+
+    padding-left: 0%;
+    padding-top: 4%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .leftpart{
+    padding: 1% 2%;
+    width: 40%;
+  }
+  .rightpart{
+    padding: 1%;
+  }
+  .gswwt{
+    margin: 0px 0px;
+    font-size: 2.5vw;
+    font-weight: bolder;
+  }
+  .ttk{
+    text-align: justify;
+    font-size: 1.5vw;
+    line-height: 190%;
+  }
+  
+
+  .rowsss{
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .rowsss input{
+    padding: 5px;
+    border: none;
+    width: 45%;
+    font-size: 18px;
+  }
+.formtable input{
+  padding: 3.5% 1%;
+}
+.country{
+
+  margin: 10px 0px;
+  width: 100%;
+}
+.country input{
+  font-size: 18px;
+  padding: 3.5% 1%;
+  width: 100%;
+  border: none;
+}
+
+   .help{
+    font-size: 18px;
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    padding: 3.5% 1%;
+   }
+
+  .getstartedbtn{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #FD8351;
+    border-radius: 4px;
+    width: max-content;
+    padding: 10px 50px;
+    cursor: pointer;
+  }
+  .rowsss input,.country input:focus{
+    outline-width: 0;
+  }
+  .help:focus{
+    outline-width: 0;
+  }
+
+  @media (max-width:700px) {
+    .pagecontent{
+      padding: 8% 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    
+    }
+    .leftpart{
+      padding: 1% 2%;
+      width: 100%;
+    }
+    .rightpart{
+      padding: 1%;
+    }
+    .gswwt{
+      margin: 0px 0px;
+      font-size: 4vw;
+      font-weight: bolder;
+    }
+    .ttk{
+      text-align: justify;
+      font-size: 1.8vw;
+      line-height: 190%;
+    }
+    
+  
+    .rowsss{
+      margin: 10px 0px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  
+    }
+    .rowsss input, select{
+      width: 45%;
+    }
+  .formtable input{
+    padding: 1% 0;
+  }
+  .country{
+  
+    margin: 10px 0px;
+    width: 100%;
+  }
+  .country select{
+    padding: 10px;
+    width: 100%;
+  }
+  
+     .help{
+      width: 100%;
+     }
+  
+    .getstartedbtn{
+      background-color: #FD8351;
+      border-radius: 4px;
+      width: max-content;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+  
+  }
+  .linkss{
+    text-decoration: none;
+    color: white;
+  }
+  .activepurpose{
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+  }
+  .activepurpose:hover{
+    font-weight: bold;
+    background-color: #FD8351;
+    color: white;
+    padding: 8px;
+  }
+  .searchcomp{
+    display: flex;
+    flex-direction: row;
+  }
